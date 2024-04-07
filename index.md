@@ -1,58 +1,58 @@
+fronteditor.dev/nlw-unite
+
 # HTML
 
+*Hypertext*
 
-*HypetText*
-- Hyperlinks
 *Markup*
-- Tag
-Small: deixa o texto em mais leve sem negrito
-Strong: deixa o texto mais destacado em negrito
-Br/Brake: Quebra de linha
+- Tag 
 - Atributos
+
 *Language*
 
+
 # CSS
+Cascading StyleSheet
+
+```css
+/* declarações */
+body {
+  background-color: #121214;
+  color: #ffffff;
+}
+```
 
 # JavaScript
 ```js
 // variaveis
 const mensagem = `Oi, tudo bem?`
 // tipos de dados
-  //number(numero)
-  //string(texto)
+  // number
+  // string
 // funcao
 alert(mensagem)
 
-document.querySelector(tag).innerHTML: 
- `Pesquisa e seleciona uma parte do HTML atraves de sua tag(table,thead,tbody...) e substitui o valor a partir da tag que você selecionou.`
-
- Um objeto no javascript é denominado pela função
- const nomdavariavel = {}
-
-${}: esta tag substitui valores
-
-return: `Retorna o valor que é denominado`
-
 // objeto javascript
 const participante = {
-  
-//propriedade do objeto
-  nome: "Joao Pedro",
-  email: "joao@gmail.com",
-  datainscricao: new Date(2024, 2, 12, 20, 22),
-  datacheckin: new Date(2024, 3, 17, 18, 30)
+  nome: "Mayk Brito",
+  email: "mayk@gmail.com",
+  dataInscricao: new Date(2024, 2, 22, 19, 20),
+  dataCheckIn: new Date(2024, 2, 25, 22, 00)
 }
-//array
-let partipantes = [
+
+// array
+let participantes = [
   {
-  nome: "Joao Pedro",
-  email: "joao@gmail.com",
-  datainscricao: new Date(2024, 2, 12, 20, 22),
-  datacheckin: new Date(2024, 3, 17, 18, 30)
-},
+    nome: "Mayk Brito",
+    email: "mayk@gmail.com",
+    dataInscricao: new Date(2024, 2, 22, 19, 20),
+    dataCheckIn: new Date(2024, 2, 25, 22, 00)
+  },
 ]
 
-<div>: Uma tag que não tem uma função so serve para organizar
-<form>: Tem uma função de formulario.
-<input>: Faz caixas para que o usuario consiga colocar algum tipo de data.
-<placeholder>Junto com a tag <input>, ele coloca uma mensagem por tras da caixa que a função <input> faz
+// estrutura de repetição - loop
+for(let participante of participantes) {
+  // faça alguma coisa aqui
+  // enquanto tiver participantes nessa lista
+}
+```

@@ -7,12 +7,14 @@
 :root {
   --border: 1px solid #ffffff1a;
 }
-body, table, input, button{
+
+body, table, input, button {
   font: 300 16px/140% 'Roboto', sans-serif;
 }
+
 body {
   background-color: #121214;
-  color: white;
+  color: #ffffff;
 }
 
 .container {
@@ -21,35 +23,35 @@ body {
   padding: 20px 32px;
 }
 
-header{
+header {
   padding: 20px 0;
 }
 
 form {
   border: var(--border);
   border-inline: none;
+  padding: 20px 0;
 }
 
 fieldset {
   border: none;
-  padding: 0;
 }
+
 fieldset > div {
   display: flex;
   gap: 12px;
-  
 }
 
 .input-wrapper {
   flex: 1;
-  
+
   display: flex;
   align-items: center;
-  gap: 12px ;
-
+  gap: 12px;
+  
   border: var(--border);
   border-radius: 10px;
-  
+
   padding: 8px 12px;
 
   font: 400 14px/150% 'Roboto', sans-serif;
@@ -66,8 +68,6 @@ fieldset legend, section h2 {
   padding-bottom: 16px;
 }
 
-
-
 fieldset button {
   width: fit-content;
   border: 0;
@@ -78,8 +78,9 @@ fieldset button {
   font: 700 12px/24px 'Roboto', sans-serif;
   color: #00292E;
 }
+
 fieldset button:hover {
-  background: #f37c37
+  background: #f37c37;
 }
 
 .lista-participantes {
@@ -91,16 +92,14 @@ fieldset button:hover {
   border-radius: 8px;
 }
 
-
-
 table {
   border-collapse: collapse;
 }
 
- table thead{
+table thead {
   font-size: 14px;
   line-height: 16px;
- }
+}
 
 thead th,
 tbody td {
